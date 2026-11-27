@@ -1,0 +1,31 @@
+{
+  "algorithm": "sha256",
+  "scope": "Five user-uploaded originals, copied byte-for-byte with normalized filenames.",
+  "files": {
+    "comparison.gif": {
+      "uploaded_name": "comparison(1).gif",
+      "bytes": 142907,
+      "sha256": "9eaef749e4f4e3672492ded0f109d14d85b9ff0aaaac8c1a87bca331cae0bdc4"
+    },
+    "comparison.png": {
+      "uploaded_name": "comparison(1).png",
+      "bytes": 7032,
+      "sha256": "c3c15ce09baa2ff2372fe4df574e1bbe8605b80ca49176aea20d53111a183afb"
+    },
+    "metadata.json": {
+      "uploaded_name": "metadata(1).json",
+      "bytes": 62837,
+      "sha256": "4adcc8e1f568c669fd840f967f7755e163b55eadb92944c1128ccc282b5ceb06"
+    },
+    "demo.py": {
+      "uploaded_name": "demo(1).py",
+      "bytes": 5314,
+      "sha256": "7918adaebf5c622f19e04a6139676d6822d6aa7c6a9dffea4cec0ccf1f256103"
+    },
+    "derivation.json": {
+      "uploaded_name": "derivation.json",
+      "bytes": 409,
+      "sha256": "2983f33cdbe40b1ef357a52e40df640bff1d07a87e96ab3ac3292dc3ec9bd710"
+    }
+  }
+}

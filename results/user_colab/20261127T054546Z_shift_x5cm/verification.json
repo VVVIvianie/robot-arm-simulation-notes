@@ -1,0 +1,292 @@
+{
+  "status": "uploaded_user_run_consistency_check_passed",
+  "verified_at_utc": "2026-11-27T05:49:27.561007+00:00",
+  "method": "Read the uploaded script and metadata, decode existing GIF and PNG, and calculate hashes and transforms. No simulation was executed during this audit.",
+  "record_id": "USER-20261127-002",
+  "original_files": {
+    "comparison.gif": {
+      "uploaded_name": "comparison(1).gif",
+      "bytes": 142907,
+      "sha256": "9eaef749e4f4e3672492ded0f109d14d85b9ff0aaaac8c1a87bca331cae0bdc4"
+    },
+    "comparison.png": {
+      "uploaded_name": "comparison(1).png",
+      "bytes": 7032,
+      "sha256": "c3c15ce09baa2ff2372fe4df574e1bbe8605b80ca49176aea20d53111a183afb"
+    },
+    "metadata.json": {
+      "uploaded_name": "metadata(1).json",
+      "bytes": 62837,
+      "sha256": "4adcc8e1f568c669fd840f967f7755e163b55eadb92944c1128ccc282b5ceb06"
+    },
+    "demo.py": {
+      "uploaded_name": "demo(1).py",
+      "bytes": 5314,
+      "sha256": "7918adaebf5c622f19e04a6139676d6822d6aa7c6a9dffea4cec0ccf1f256103"
+    },
+    "derivation.json": {
+      "uploaded_name": "derivation.json",
+      "bytes": 409,
+      "sha256": "2983f33cdbe40b1ef357a52e40df640bff1d07a87e96ab3ac3292dc3ec9bd710"
+    }
+  },
+  "started_at_utc": "2026-11-27T05:45:46.238001+00:00",
+  "completed_at_utc": "2026-11-27T05:45:54.058647+00:00",
+  "reported_wall_time_s": 7.820646,
+  "source_hash_matches_metadata_and_derivation": true,
+  "source_hash_matches_prepared_and_assistant_checked_script": true,
+  "base_hash_matches_first_user_run": true,
+  "states_count": 30,
+  "gif_frame_count": 30,
+  "gif_size": [
+    640,
+    286
+  ],
+  "png_size": [
+    640,
+    286
+  ],
+  "per_camera_size": [
+    320,
+    240
+  ],
+  "gif_durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "gif_total_s": 3.0,
+  "png_best_gif_frame_1based": 11,
+  "png_frame_11_RGB_MAE": 0.0,
+  "baseline_png_pixels_equal_to_first_user_run_frame_11": true,
+  "camera_labels": [
+    "Wrist baseline",
+    "Wrist +5cm local x"
+  ],
+  "delta_in_baseline_optical_coordinates": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.05
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_pair_distance_min_max_m": [
+    0.04999999999999997,
+    0.050000000000000024
+  ],
+  "maximum_camera_orientation_difference": 0.0,
+  "maximum_shift_composition_residual": 0.0,
+  "maximum_hand_composition_residual": 2.220446049250313e-16,
+  "maximum_mount_composition_residual": 0.0,
+  "maximum_joint_difference_from_first_user_run_rad": 0.0,
+  "maximum_baseline_camera_difference_from_first_user_run": 0.0,
+  "maximum_hand_pose_difference_from_first_user_run": 0.0,
+  "saved_simulation_times_s": [
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0,
+    2.1,
+    2.2,
+    2.3,
+    2.4,
+    2.5,
+    2.6,
+    2.7,
+    2.8,
+    2.9,
+    3.0,
+    3.1,
+    3.2,
+    3.3,
+    3.4,
+    3.5
+  ],
+  "unique_visual_frames_excluding_labels": [
+    30,
+    30
+  ],
+  "red_bottom_boundary_contact_frames_1based": {
+    "baseline": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "shifted": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  "color_observation_method": "Heuristic RGB masks on each 320x240 camera image excluding labels; red R>90 and R>1.8G and R>1.8B; blue B>90 and B>2R and B>1.5G; yellow R>130 and G>80 and B<100 and R>1.1G. Not semantic segmentation ground truth.",
+  "frame_11_color_regions": {
+    "red": {
+      "baseline": {
+        "count": 698,
+        "centroid_xy": [
+          123.37249283667622,
+          224.8810888252149
+        ],
+        "bounds_xyxy": [
+          110,
+          209,
+          136,
+          239
+        ]
+      },
+      "shifted": {
+        "count": 710,
+        "centroid_xy": [
+          104.06478873239436,
+          224.84647887323945
+        ],
+        "bounds_xyxy": [
+          90,
+          209,
+          118,
+          239
+        ]
+      },
+      "centroid_difference_xy_shifted_minus_baseline": [
+        -19.307704104281854,
+        -0.03460995197545458
+      ]
+    },
+    "blue": {
+      "baseline": {
+        "count": 610,
+        "centroid_xy": [
+          99.59344262295082,
+          128.21639344262294
+        ],
+        "bounds_xyxy": [
+          85,
+          115,
+          114,
+          141
+        ]
+      },
+      "shifted": {
+        "count": 660,
+        "centroid_xy": [
+          80.9469696969697,
+          128.27121212121213
+        ],
+        "bounds_xyxy": [
+          66,
+          115,
+          96,
+          141
+        ]
+      },
+      "centroid_difference_xy_shifted_minus_baseline": [
+        -18.646472925981115,
+        0.054818678589185765
+      ]
+    },
+    "yellow": {
+      "baseline": {
+        "count": 603,
+        "centroid_xy": [
+          188.06301824212272,
+          155.37479270315092
+        ],
+        "bounds_xyxy": [
+          174,
+          143,
+          202,
+          168
+        ]
+      },
+      "shifted": {
+        "count": 578,
+        "centroid_xy": [
+          170.42906574394465,
+          155.41695501730104
+        ],
+        "bounds_xyxy": [
+          157,
+          143,
+          184,
+          168
+        ]
+      },
+      "centroid_difference_xy_shifted_minus_baseline": [
+        -17.633952498178076,
+        0.04216231415011862
+      ]
+    }
+  },
+  "visual_observation": "The colored cube regions shift left in the shifted camera image. Red region touches the bottom image border in both views; horizontal translation did not resolve that clipping.",
+  "limitations": [
+    "Only two fixed wrist-camera mounting positions are compared under prescribed motion.",
+    "No learned policy, VLA training, grasp task, success-rate evaluation, or performance improvement is established.",
+    "Matrix residual checks test internal consistency of generated records, not independent real-camera calibration.",
+    "Color thresholds and centroid shifts are visual sanity checks, not a formal visibility benchmark.",
+    "Colab execution context is provided by user messages/screenshots; original metadata does not identify the runtime platform."
+  ],
+  "phase_status": "User requested stopping experiments at this point and preparing a group-meeting progress report."
+}

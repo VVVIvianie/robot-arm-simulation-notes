@@ -1,0 +1,91 @@
+{
+  "schema_version": "0.1",
+  "status": "draft_not_executed",
+  "purpose": "Small robot-arm simulation exercise comparing camera observations; no execution yet.",
+  "source": {
+    "reference": "Dynamic Camera-Relation VLA Proposal, shared by a senior student",
+    "attribution": "docs/provenance.md",
+    "note": "External learning reference; no ownership claim. The original proposal is not included in this repository. Magnitudes are reference-based draft choices; axes and signs still need verification."
+  },
+  "environment": null,
+  "environment_version": null,
+  "robot": null,
+  "task": null,
+  "camera_link_name": null,
+  "baseline_mount_T_E_Cw": null,
+  "static_camera_pose": null,
+  "camera_intrinsics": null,
+  "episodes_per_condition": null,
+  "paired_seeds": [],
+  "geometry_convention": {
+    "transform": "T_A_B maps coordinates in frame B into frame A using column vectors.",
+    "units": "Translation in metres; angles in degrees in this configuration only.",
+    "axes": "Right-handed baseline wrist optical frame: +x right, +y down, +z forward. Convert explicitly from the simulator camera convention.",
+    "composition": "T_E_Cw_perturbed = T_E_Cw_baseline @ Delta; perturbation is expressed in the baseline camera frame.",
+    "rotation_sign": "Positive angle follows the right-hand rule about the stated axis.",
+    "delta_definition": "Delta = [R, t; 0, 1]. R rotates vectors first, then t translates them, both expressed in the baseline camera frame.",
+    "dynamic_pose": "T_B_Cw(t) = T_B_E(t) @ T_E_Cw_perturbed; camera remains rigidly attached during each episode.",
+    "implementation_status": "unverified"
+  },
+  "conditions": [
+    {
+      "id": "baseline",
+      "translation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation_deg": 0.0
+    },
+    {
+      "id": "wrist_tx_plus_5cm",
+      "translation_m": [
+        0.05,
+        0.0,
+        0.0
+      ],
+      "rotation_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation_deg": 0.0
+    },
+    {
+      "id": "wrist_ry_plus_15deg",
+      "translation_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_axis": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation_deg": 15.0
+    }
+  ],
+  "controls": {
+    "physical_camera_mount_changes": true,
+    "update_geometry_metadata_to_actual_camera_pose": true,
+    "calibration_noise_enabled": false,
+    "pair_initial_states_across_conditions": true,
+    "keep_scene_controller_and_capture_settings_fixed": true,
+    "record_target_visibility_and_view_overlap": true,
+    "fixed_trajectory_capture_is_policy_evaluation": false
+  },
+  "completion_gate": [
+    "Verify one simulator, robot and scene on the actual target machine.",
+    "Resolve camera parameters and check coordinate conversions.",
+    "Reuse initial scene states and record actual configuration.",
+    "Save real images, observations, visibility changes and errors."
+  ],
+  "results": null,
+  "controller": null
+}

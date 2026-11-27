@@ -1,0 +1,61 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets/
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# OS and editor files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+
+# Reproducible or large artifacts: record their paths and checksums separately
+data/raw/
+data/processed/
+artifacts/
+outputs/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar
+*.gz
+*.bundle
+
+# Machine-specific environment snapshots
+environment.local.json
+
+# Externally supplied proposal: keep outside this personal experiment repository
+/references/VLA_Dynamic_Camera_Relation_Proposal*.html
+
+# Repeated local demo runs; keep the reviewed example under results/example/
+/results/demo/

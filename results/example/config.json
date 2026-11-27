@@ -1,0 +1,119 @@
+{
+  "source": "Snapshot of script constants and CLI settings, exported from the completed run; run_demo.py does not read this JSON.",
+  "script_sha256": "9270a2bf379b1c81ab276488be25d6ecd5c6c8474bfdeaa43578f445aff4eb4c",
+  "frames": 64,
+  "fps": 12,
+  "width": 360,
+  "height": 280,
+  "seed": 7,
+  "seed_note": "Scene and trajectory are deterministic; no random sampling is performed.",
+  "robot_model": "pybullet_data/franka_panda/panda.urdf",
+  "wrist_link": "panda_hand",
+  "control": "POSITION_CONTROL with sinusoidal prescribed joint targets",
+  "camera": {
+    "width": 360,
+    "height": 280,
+    "vertical_fov_deg": 60,
+    "near_m": 0.02,
+    "far_m": 4.0,
+    "intrinsics_pixel_centres": [
+      [
+        242.48711305964284,
+        0,
+        179.5
+      ],
+      [
+        0,
+        242.48711305964284,
+        139.5
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "convention": "Column vectors; T_A_B maps B to A; metres; optical x right, y down, z forward.",
+    "view_conversion": "OpenGL view forward = optical +z; up = optical -y.",
+    "hand_from_baseline_camera": [
+      [
+        0.9976970997917826,
+        -0.005354552447769011,
+        -0.06761527811929474,
+        0.07999999999999996
+      ],
+      [
+        0.005391456416272499,
+        0.999985399990618,
+        0.00036332260399031004,
+        -0.06
+      ],
+      [
+        0.06761234550566132,
+        -0.0007270307333442518,
+        0.9977114022409163,
+        0.025000000000000133
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "translation_delta_local": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.05
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "rotation_delta_local": [
+      [
+        0.9659258262890683,
+        0.0,
+        0.25881904510252074,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        -0.25881904510252074,
+        0.0,
+        0.9659258262890683,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "composition": "T_world_C = T_world_hand @ T_hand_C @ Delta_local",
+    "synchronization": "All four views rendered without intervening physics steps."
+  }
+}

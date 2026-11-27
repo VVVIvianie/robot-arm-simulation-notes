@@ -1,0 +1,230 @@
+{
+  "script_sha256_actual": "03d2abfb35bd68be8b43d6c80a8730f337c9cf7ba1b93f5110df5accd844f055",
+  "script_sha256_recorded": "03d2abfb35bd68be8b43d6c80a8730f337c9cf7ba1b93f5110df5accd844f055",
+  "hash_match": true,
+  "states_count": 30,
+  "recorded_frame_count": 30,
+  "gif_frame_count": 30,
+  "gif_size": [
+    640,
+    286
+  ],
+  "png_size": [
+    640,
+    286
+  ],
+  "per_camera_size": [
+    320,
+    240
+  ],
+  "gif_durations_ms": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "gif_total_s": 3.0,
+  "png_best_gif_frame_1based": 11,
+  "png_best_gif_RGB_MAE": 0.0013694638694638694,
+  "png_vs_frame11_max_RGB_abs_diff": 5,
+  "wall_time_s": 6.581809,
+  "simulation_first_t_s": 0.6,
+  "simulation_last_t_s": 3.5,
+  "simulation_step_differences_s": [
+    0.1
+  ],
+  "timestamp_max_abs_deviation_from_code": 0.0,
+  "physics_steps_total_from_code": 840,
+  "fixed_external_camera_max_abs_change": 0.0,
+  "rigid_mount_world_hand_times_hand_camera_max_abs_residual": 0.0,
+  "all_pose_last_rows_exact": true,
+  "all_numeric_state_fields_finite": true,
+  "rotation_count": 91,
+  "rotation_max_orthogonality_Frobenius_error": 1.763140010817822e-15,
+  "rotation_det_min": 0.9999999999999987,
+  "rotation_det_max": 1.000000000000001,
+  "q_peak_to_peak_rad": [
+    0.398465014735386,
+    0.2589990654008193,
+    0.1195581771511284,
+    0.1992332010939295,
+    0.11955140696210348,
+    0.19926182406196458,
+    0.13945960834704652
+  ],
+  "q_peak_to_peak_deg": [
+    22.830363627955773,
+    14.83955334529973,
+    6.85017895703709,
+    11.415221561563376,
+    6.849791053779456,
+    11.416861536828923,
+    7.990446970833192
+  ],
+  "q_max_abs_departure_from_first_rad": [
+    0.199443188028441,
+    0.1296328774319367,
+    0.05983006726039797,
+    0.09971744743262967,
+    0.059826797351372175,
+    0.09971590877683867,
+    0.0698061757215247
+  ],
+  "q_last_minus_first_rad": [
+    -0.003813383627507747,
+    -0.0024864577009731104,
+    -0.0014706116842811447,
+    -0.0018552590274234504,
+    -0.001103066732635333,
+    -0.0018276759725026626,
+    -0.0013036850578187487
+  ],
+  "wrist_max_translation_from_first_m": 0.14641526554058085,
+  "wrist_max_translation_frame_1based": 8,
+  "wrist_max_translation_sim_t_s": 1.3,
+  "wrist_max_translation_vector_in_world_m": [
+    0.019963643631042804,
+    0.1447170233916678,
+    0.009791121332462183
+  ],
+  "wrist_max_translation_vector_in_initial_camera_frame_m": [
+    0.020700983637669534,
+    -0.14471097604870867,
+    -0.008223908485738951
+  ],
+  "wrist_max_rotation_from_first_deg": 11.39175129099026,
+  "wrist_max_rotation_frame_1based": 8,
+  "wrist_max_rotation_sim_t_s": 1.3,
+  "wrist_max_rotation_relative_matrix_in_initial_camera_frame": [
+    [
+      0.9831696331429325,
+      0.17460683467282917,
+      0.05375802964327195
+    ],
+    [
+      -0.1700143057254971,
+      0.9821368357907972,
+      -0.08063728437588873
+    ],
+    [
+      -0.06687756211367772,
+      0.07014049521051327,
+      0.9952927723124263
+    ]
+  ],
+  "wrist_first_position_in_world_m": [
+    0.261677401001589,
+    0.06043506791417909,
+    1.2358153180720455
+  ],
+  "hand_first_position_in_world_m": [
+    0.1791618913412094,
+    3.862271569232689e-06,
+    1.2486317157745361
+  ],
+  "wrist_mount_translation_in_panda_hand_frame_m": [
+    0.07999999999999996,
+    -0.06,
+    0.025000000000000133
+  ],
+  "wrist_mount_distance_m": 0.10307764064044152,
+  "wrist_mount_rotation_angle_from_panda_hand_deg": 3.8893103878885262,
+  "external_position_in_world_m": [
+    1.22,
+    -1.32,
+    1.46
+  ],
+  "camera_picture_changes": {
+    "external": {
+      "maximum_mean_absolute_RGB_difference_to_first": 1.5395529513888888,
+      "at_frame_1based": 9
+    },
+    "wrist": {
+      "maximum_mean_absolute_RGB_difference_to_first": 10.703168402777777,
+      "at_frame_1based": 8
+    }
+  },
+  "verified_at_utc": "2026-11-27T05:35:44.628898+00:00",
+  "method": "Read uploaded source and metadata; decode existing GIF/PNG; calculate hashes, state transforms, joint ranges and image differences. The uploaded simulation was not re-executed for this audit.",
+  "original_files": {
+    "comparison.gif": {
+      "sha256": "052248fa7d9de6ee489f8a86874e79edb03d93e6393af127f2b1dff63fa6ec29",
+      "bytes": 241556
+    },
+    "comparison.png": {
+      "sha256": "3fa28a98bfb07e9dc1b9f41d411c6c8529bacc68d26e965d3ad040aec2d17d8e",
+      "bytes": 10775
+    },
+    "metadata.json": {
+      "sha256": "c99cdc8dac7ba131fcd890728f9d968adbfefde076f7578aae0cefe7ee8e45ff",
+      "bytes": 59462
+    },
+    "demo.py": {
+      "sha256": "03d2abfb35bd68be8b43d6c80a8730f337c9cf7ba1b93f5110df5accd844f055",
+      "bytes": 4890
+    }
+  },
+  "matches_published_paste_cell_inner_source": true,
+  "published_paste_cell_reference_commit": "eefe06ff7832bdc25627255e01cb85757faf6850",
+  "unique_visual_frames_excluding_labels": {
+    "fixed_camera": 30,
+    "wrist_camera": 30
+  },
+  "wrist_red_boundary_observation": {
+    "method": "Heuristic RGB mask on wrist image only: red>90, red>1.8*green, red>1.8*blue. Not segmentation ground truth.",
+    "frames_touching_bottom_row_1based": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "red_visible_pixel_count_min_max": [
+      432,
+      753
+    ],
+    "interpretation": "The red region meets the lower image border in these frames. This is a field-of-view observation, not a grasp success or formal visibility score."
+  },
+  "calculation_conventions": {
+    "translation": "Euclidean norm of world-coordinate wrist-camera origin minus first saved wrist-camera origin.",
+    "rotation": "acos(clip((trace(R_first.T @ R_i)-1)/2,-1,1)), converted to degrees.",
+    "joint_peak_to_peak": "Per-joint maximum minus minimum across 30 saved states.",
+    "rigid_mount_residual": "Maximum absolute element difference between recorded world_from_cameras[1] and world_from_hand @ hand_from_camera.",
+    "rotation_orthogonality": "Frobenius norm of R.T @ R - I, across 91 rotation matrices.",
+    "png_difference": "Mean absolute difference of 8-bit RGB channels between PNG and decoded GIF frame 11; GIF palette quantization can change RGB values.",
+    "frame_numbering": "All named frames use 1-based indexing."
+  },
+  "limitations": [
+    "Internal consistency is not independent real-camera calibration validation.",
+    "Colab execution context is supported by user screenshots/messages, not a runtime platform field in metadata.",
+    "The original metadata does not save object poses, semantic segmentation, explicit camera intrinsics, or per-view capture timestamps. Projection parameters are available in demo.py and the derived config snapshot.",
+    "This run does not include camera-mount perturbations, a learned VLA policy, grasp evaluation or a task success metric."
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "base_run_directory": "run_20261127T044151_036921Z",
+  "base_script_sha256": "03d2abfb35bd68be8b43d6c80a8730f337c9cf7ba1b93f5110df5accd844f055",
+  "derived_script_sha256": "7918adaebf5c622f19e04a6139676d6822d6aa7c6a9dffea4cec0ccf1f256103",
+  "change": "Compare baseline wrist with baseline wrist @ Tx(0.05 m); same orientation. Scene, controls, physics steps, projection and frame timing are unchanged."
+}

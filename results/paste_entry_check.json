@@ -1,0 +1,68 @@
+{
+  "status": "completed",
+  "started_at_utc": "2026-11-27T04:38:48.653816+00:00",
+  "completed_at_utc": "2026-11-27T04:38:54.979833+00:00",
+  "python": "3.11.18",
+  "packages": {
+    "pybullet": "3.2.7",
+    "numpy": "2.4.6",
+    "Pillow": "13.0.0"
+  },
+  "model": "pybullet_data/franka_panda/panda.urdf",
+  "scope": "30-frame two-view quick demo; prescribed motion; no learned policy or grasp evaluation",
+  "frame_count": 30,
+  "camera_size": [
+    320,
+    240
+  ],
+  "physics_hz": 240,
+  "gif_duration_ms": 100,
+  "camera_convention": "Column vectors; optical x right, y down, z forward; metre units; fixed wrist mount; captures share one state",
+  "hand_from_camera": [
+    [
+      0.9976970997917826,
+      -0.005354552447769011,
+      -0.06761527811929474,
+      0.07999999999999996
+    ],
+    [
+      0.005391456416272499,
+      0.999985399990618,
+      0.00036332260399031004,
+      -0.06
+    ],
+    [
+      0.06761234550566132,
+      -0.0007270307333442518,
+      0.9977114022409163,
+      0.025000000000000133
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "script_sha256": "03d2abfb35bd68be8b43d6c80a8730f337c9cf7ba1b93f5110df5accd844f055",
+  "verification_environment": "Assistant Linux runtime; not the user Google account or Colab browser UI",
+  "paste_cell_sha256": "d1f6de5ab70056788f978c80c995942e4328a66ff3499470d1725cf3e6c58f73",
+  "checks": {
+    "rendered_frames": 30,
+    "gif_size": [
+      640,
+      286
+    ],
+    "frame_duration_ms": 100,
+    "fixed_external_pose": true,
+    "rigid_wrist_mount": true,
+    "joint_motion_observed": true,
+    "image_visually_checked": true
+  },
+  "output_sha256": {
+    "comparison.gif": "052248fa7d9de6ee489f8a86874e79edb03d93e6393af127f2b1dff63fa6ec29",
+    "comparison.png": "3fa28a98bfb07e9dc1b9f41d411c6c8529bacc68d26e965d3ad040aec2d17d8e",
+    "metadata.json": "36d90cc6ba7d5311edcfb3dc3769b08afd95873d08aa177f89c40948297739cf",
+    "demo.py": "03d2abfb35bd68be8b43d6c80a8730f337c9cf7ba1b93f5110df5accd844f055"
+  }
+}

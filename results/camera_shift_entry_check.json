@@ -1,0 +1,50 @@
+{
+  "status": "assistant_environment_check_completed",
+  "verified_at_utc": "2026-11-27T05:43:06.787078+00:00",
+  "scope": "Actual child simulation executed using existing Python 3.11 environment. Only notebook display/download functions were stubbed. This is not a user Colab run.",
+  "helper_sha256": "faad91653efa0d24c073f28b095f4c208aee79341c657c3f090c2edc68a3445f",
+  "base_script_sha256": "03d2abfb35bd68be8b43d6c80a8730f337c9cf7ba1b93f5110df5accd844f055",
+  "derived_script_sha256": "7918adaebf5c622f19e04a6139676d6822d6aa7c6a9dffea4cec0ccf1f256103",
+  "python": "3.11.18",
+  "packages": {
+    "pybullet": "3.2.7",
+    "numpy": "2.4.6",
+    "Pillow": "13.0.0"
+  },
+  "frame_count": 30,
+  "camera_labels": [
+    "Wrist baseline",
+    "Wrist +5cm local x"
+  ],
+  "combined_size_px": [
+    640,
+    286
+  ],
+  "gif_duration_ms": 3000,
+  "shift_in_baseline_optical_coordinates_m": [
+    0.05,
+    0,
+    0
+  ],
+  "maximum_camera_composition_residual": 0.0,
+  "maximum_rotation_difference_between_cameras": 0.0,
+  "camera_pair_distance_min_max_m": [
+    0.04999999999999997,
+    0.050000000000000024
+  ],
+  "maximum_joint_state_difference_from_user_baseline": 0.0,
+  "maximum_baseline_camera_difference_from_user_baseline": 0.0,
+  "baseline_png_pixels_equal_to_user_frame_11": true,
+  "base_source_unchanged": true,
+  "derived_metadata_source_hash_matches": true,
+  "inline_gif_display_requested": true,
+  "zip_download_requested": true,
+  "zip_members": [
+    "comparison.gif",
+    "comparison.png",
+    "demo.py",
+    "derivation.json",
+    "metadata.json"
+  ],
+  "user_execution_status": "not_yet_observed"
+}

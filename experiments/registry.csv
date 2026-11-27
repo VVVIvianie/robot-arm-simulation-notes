@@ -1,0 +1,4 @@
+experiment_id,title,status,created_at_utc,record_path,config_sha256
+DEMO-20261127-001,CPU robot-arm motion and four-camera observations,completed,2026-11-27T02:51:58.665627+00:00,results/example,08788ec819bbaab68d53f422a8c041401e26327659a5406f20f21f059f2a37f9
+USER-20261127-001,User Colab prescribed robot-arm motion and two-camera observations,completed,2026-11-27T04:41:51.967070+00:00,results/user_colab/20261127T044151Z,e2a2929ff35bbfe1f0ab532c97d55fead769350e524c18e9b48f7c6253571454
+USER-20261127-002,User Colab wrist mounting comparison with local optical x +5 cm,completed,2026-11-27T05:45:46.238001+00:00,results/user_colab/20261127T054546Z_shift_x5cm,f1a45c0bca34175a84b29e6e2e977bb2aa71f8b3c804a262a503eb2b18e345ba

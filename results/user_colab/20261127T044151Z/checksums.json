@@ -1,0 +1,22 @@
+{
+  "algorithm": "sha256",
+  "scope": "Four original files uploaded by the user, copied byte-for-byte without edits.",
+  "files": {
+    "comparison.gif": {
+      "sha256": "052248fa7d9de6ee489f8a86874e79edb03d93e6393af127f2b1dff63fa6ec29",
+      "bytes": 241556
+    },
+    "comparison.png": {
+      "sha256": "3fa28a98bfb07e9dc1b9f41d411c6c8529bacc68d26e965d3ad040aec2d17d8e",
+      "bytes": 10775
+    },
+    "metadata.json": {
+      "sha256": "c99cdc8dac7ba131fcd890728f9d968adbfefde076f7578aae0cefe7ee8e45ff",
+      "bytes": 59462
+    },
+    "demo.py": {
+      "sha256": "03d2abfb35bd68be8b43d6c80a8730f337c9cf7ba1b93f5110df5accd844f055",
+      "bytes": 4890
+    }
+  }
+}
